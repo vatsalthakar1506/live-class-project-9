@@ -1,0 +1,451 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  height: 500px;
+  background-color: #3400ff;
+}
+nav {
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.nav-item {
+  margin-right: 20px;
+  color: #fff;
+}
+.nav-item-active {
+  background-color: #f5f5f5;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 5px;
+  color: #5a31fc;
+  margin-right: 20px;
+  font-weight: 400;
+}
+.logo {
+  margin: 20px;
+}
+
+.header-text {
+  color: #fff;
+  margin-left: 60px;
+  float: left;
+  margin-top: 50px;
+}
+.header-image {
+  float: right;
+}
+.companies {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.company-items {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.api-heading {
+  font-weight: 800;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+}
+.cards {
+  margin-left: 90px;
+  margin-top: 20px;
+  display: flex;
+}
+.card {
+  width: 20%;
+  height: 250px;
+  background-color: #fff;
+  margin-right: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card-active {
+  width: 20%;
+  height: 250px;
+  background-color: transparent;
+  margin-right: 30px;
+  box-shadow: 0px 5px 15px #000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-logo {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.card-head-active {
+  color: #000;
+  margin-left: 30px;
+}
+.card-body {
+  color: #000;
+  font-size: small;
+  margin-left: 30px;
+}
+.blog-heading {
+  margin-top: 50px;
+  margin-left: 90px;
+  font-size: 70%;
+}
+.blog-cards {
+  margin-left: 90px;
+  display: flex;
+  margin-top: 30px;
+}
+.blog-image {
+  width: 30%;
+}
+.blog-image > img {
+  width: 100%;
+}
+
+.blog-card {
+  width: 40%;
+  height: 300px;
+  display: flex;
+  background-color: #fff;
+  margin-right: 40px;
+  height: 196px;
+  border-radius: 5px;
+  border-top-left-radius: 40px;
+  box-shadow: 0px 5px 15px rgb(134, 130, 130);
+}
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  order: 3;
+
+  width: 150px;
+  margin-left: 80px;
+}
+.blog-content > small {
+  color: #777386;
+  position: absolute;
+  padding-top: 110px;
+}
+.blog-content > h3 {
+  position: absolute;
+  padding-top: 30px;
+}
+
+.blog-author {
+  margin-top: 10px;
+  order: 1;
+  margin-left: 20px;
+}
+.blog-bottom {
+  order: 2;
+  margin-top: 12px;
+  margin-left: 1px;
+}
+.blog-author > b {
+  font-size: 7px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.blog-card-bottom-image {
+  width: 40px;
+}
+
+.faq-section {
+  display: flex;
+  margin-top: 30px;
+  background-color: #e5f0f5;
+  height: 250px;
+}
+.faq-content {
+  margin-left: 90px;
+}
+
+.faq-content > h4 {
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.faq-image > img {
+  height: 250px;
+  padding-left: 420px;
+  width: 450px;
+}
+
+.faq-content > button {
+  background-color: #4e32be;
+  padding: 5px 35px;
+  font-size: 10px;
+  border-radius: 3px;
+  border-style: none;
+  color: #fff;
+}
+
+.download-section {
+  margin-left: 90px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.download-content {
+  width: 350px;
+}
+.download-email {
+  margin-top: 40px;
+  margin-right: 250px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+input[type="text"] {
+  background-color: #d2f3f2;
+  position: absolute;
+  padding: 9px 260px 9px 45px;
+  border-radius: 50px;
+  z-index: -1;
+  border-width: thin;
+  font-size: 11px;
+  text-align: end;
+}
+
+form > button {
+  position: absolute;
+  margin-top: 3.2px;
+  background-color: #4e32be;
+  padding: 5px 25px;
+  border-radius: 50px;
+  color: #fff;
+  border-style: 0.001px;
+  border-width: thin;
+  margin-left: 336px;
+  font-size: 11px;
+}
+
+span {
+  font-size: 22px;
+}
+
+.footer-section {
+  display: flex;
+  background-color: #3400ff;
+  justify-content: space-between;
+  height: 120px;
+  margin-top: 50px;
+}
+
+.footer-left > img {
+  margin-left: 90px;
+  margin-top: 40px;
+  width: 100px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  margin-left: 50px;
+}
+.list-items {
+  padding: 7px;
+  color: #fff;
+  font-size: 9px;
+  margin-top: -20px;
+}
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.footer-right1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-right1 > img {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  position: relative;
+  left: 200px;
+  margin-top: 20px;
+}
+.logos-list {
+  display: flex;
+  list-style: none;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.logos-list > .list-items {
+  display: flex;
+}
+
+.nav-menu-icon {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .header-image {
+    display: none;
+  }
+  .nav-item {
+    display: none;
+  }
+  .nav-item-active {
+    display: none;
+  }
+  .nav-menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 30px;
+  }
+  .card-active {
+    width: fit-content;
+  }
+  .card {
+    width: fit-content;
+  }
+
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .blog-bottom {
+    display: none;
+  }
+  .blog-author {
+    display: none;
+  }
+  .faq-content {
+    width: fit-content;
+    margin-left: 0px;
+  }
+  div .faq-content > h4 {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .faq-image > img {
+    height: 250px;
+    padding-left: 200px;
+    width: 450px;
+  }
+  .blog-content {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 790px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 30px;
+  }
+  .faq-image > img {
+    height: 250px;
+    padding-left: 60px;
+    width: 450px;
+  }
+
+  .download-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-card {
+    width: fit-content;
+  }
+  .footer-section {
+    height: fit-content;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-right1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .list-items {
+    font-size: 18px;
+  }
+  .card-body {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 650px) {
+  .faq-image {
+    position: absolute;
+    height: 250px;
+    padding-left: 0px;
+    width: 400px;
+    z-index: 0;
+  }
+  .faq-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-right1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .download-section {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 30px;
+  }
+  .download-section {
+    margin-left: 00px;
+  }
+  .faq-image > img {
+    height: 250px;
+    padding-left: 60px;
+    width: 400px;
+  }
+  .faq-content {
+    margin-left: 130px;
+    margin-top: 20px;
+    color: #5611d5;
+    font-size: 30px;
+  }
+  .body {
+    width: 140%;
+  }
+}
